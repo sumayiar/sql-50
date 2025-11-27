@@ -1,0 +1,8 @@
+# Write your MySQL query statement below
+#Goal: return the name of the customers where their id is not 2/null
+SELECT name
+FROM Customer
+WHERE referee_id != 2
+or referee_id is null
+
+#This problem tested my ability to formulate a SQL query based on the given information in the Leetcode problem.
