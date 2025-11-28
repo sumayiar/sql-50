@@ -1,0 +1,5 @@
+After completing four SQL Leetcode problems, here's what i learned:
+
+1. A standard SQL query consists of three majoy keywords: SELECT, FROM, and WHERE
+2. The DISTINCT keyword is reserved to use in queries where the row has distinct values. In other words, it rules out duplicate values
+3. The keyword ORDER BY returns a table wirh values in ascending order.
