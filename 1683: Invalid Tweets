@@ -1,0 +1,17 @@
+#First try
+SELECT tweet_id
+FROM Tweets 
+WHERE content > 15
+
+#Second try
+SELECT tweet_id
+FROM Tweets 
+WHERE content > 15
+ORDER BY tweet_id
+
+#Third try
+SELECT tweet_id
+FROM Tweets 
+WHERE length(content) > 15;
+
+#I learned the length function in SQL for this problem.
