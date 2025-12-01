@@ -1,0 +1,13 @@
+# Write your MySQL query statement below
+#Inserting pseudocode to straighten out my thought process
+#This SQL query has to return the unique ID of each user.
+#This problem deals with joining both the Employees and EmployeeUNI table.
+
+#First, I will select the id and names
+SELECT unique_id, name
+#Next, I will select the value from the Employees table
+FROM Employees
+#Then, I will join those values with the values from the EmployeeUNI table
+LEFT JOIN EmployeeUNI 
+#Lastly, I will check to see if the values match
+ON Employees.id = EmployeeUNI.id
