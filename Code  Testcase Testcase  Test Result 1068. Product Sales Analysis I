@@ -1,0 +1,9 @@
+# Write your MySQL query statement below
+# Look at what the questions asks for
+SELECT product_name, year, price
+# The question wants these three values
+FROM Sales
+# from the Sales table
+JOIN Product 
+ON Sales.product_id = Product.product_id
+# Both tables share the product_id attribute. That's how you can join them.
